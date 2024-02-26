@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Ziqi Cai (蔡子祺)</title>
+<style>
+     body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2; /* 灰色背景 */
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .container {
+        flex: 1;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .card {
+        background-color: #fff; /* 白色内容背景 */
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        padding: 20px;
+        margin-bottom: 20px;
+        backdrop-filter: blur(10px); /* 毛玻璃效果 */
+    }
+    
+
+    .card h2 {
+        margin-top: 0;
+    }
+    .card a {
+        color: rgb(138, 0, 19); /* 主题色 */
+        text-decoration:none;
+    }
+    
+    .splitcard {
+        display: flex;
+        justify-content: flex-start;
+        background-color: #fff; /* 白色内容背景 */
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        padding: 20px;
+        margin-bottom: 20px;
+        backdrop-filter: blur(10px); /* 毛玻璃效果 */
+        gap:10px;
+    }
+    .splitcard img {
+        
+        width: 25%;
+        height: 25%;
+        border-radius: 8px;
+
+    }
+    .splitcard h2 {
+        margin-top: 0;
+    }
+    .splitcard a {
+        color: rgb(138, 0, 19); /* 主题色 */
+        text-decoration:none;
+    }
+
+    header {
+        background-color: rgb(138, 0, 19); /* 主题色 */
+        color: #fff; /* 白色文字 */
+        padding: 10px 0;
+        text-align: center;
+    }
+    footer {
+        background-color: rgb(138, 0, 19); /* 主题色 */
+        color: #fff; /* 白色文字 */
+        padding: 0px 0;
+        text-align: center;
+    }
+    footer {
+        background-color: rgba(0, 0, 0, 0.5); /* 主题色透明度 */
+        color: #fff; /* 白色文字 */
+        text-align: center;
+    }
+    @media (max-width: 768px) {
+        .card {
+            padding: 15px;
+        }
+    }
+</style>
+</head>
+<body>
+
+
+
+<!-- <nav>
+    <a href="#">Ziqi Cai (蔡子祺)</a>
+</nav> -->
+
+<div class="container">
+    <div class="splitcard">
+        <img src="assets/images/czq.webp" alt="Profile Picture">
+        <div> </div>
+        <div>
+            <h2>Ziqi Cai (蔡子祺)</h2>
+            <p>School of computer science, Beijing Jiaotong University</p>
+            <a href="mailto:zqtsai@gmail.com"><i class="fa fa-envelope red" style="color:rgb(138, 0, 19)"></i></a>&nbsp;
+            <a href="https://github.com/ghostcai"><i class="fa fa-github" style="color:rgb(138, 0, 19)"></i></a>&nbsp;
+            <a href="https://www.cnblogs.com/ghostcai"><i class="fa fa-wordpress" style="color:rgb(138, 0, 19)"></i></a>&nbsp;
+        </div>
+    </div>
+    
+    <div class="card" id="aboutme">
+        <h2>About Me</h2>
+        <p class="text">I am currently pursuing my bachelor’s degree in computer science at <a href="http://scit.bjtu.edu.cn/" target="_blank" class="bluelink">School of Computer and Information Technology, Beijing Jiaotong University</a>. Additionally, I am a guest student at the <a href="http://www.ict.ac.cn/" target="_blank" class="bluelink">Institute of Computing Technology, Chinese Academy of Sciences</a>, under the mentorship of <a href="http://www.geometrylearning.com/" target="_blank" class="bluelink">Prof. Lin Gao</a>. </p>
+
+        <p>In 2024, I will be joining the <a href="https://camera.pku.edu.cn/" target="_blank" class="bluelink">Camera Intelligence Lab</a> led by <a href="https://camera.pku.edu.cn/People.htm" target="_blank" class="bluelink">Prof. Boxin Shi</a> at the <a href="https://cs.pku.edu.cn/" target="_blank" class="bluelink">School of Computer Science, Peking University</a> as a PhD student. </p>
+        
+        <p>My research interests encompass computer graphics, computer vision, and machine learning, with a particular focus on 3D vision and generative models.</p>
+    </div>
+
+    <div class="card" id="publications">
+        <h2>Publications</h2>
+        <p class="text">Coming soooooooon!</p>
+
+    </div>
+    
+
+</div>
+
+<footer>
+    <p style="color: #ffffff; font-size: 12px;">京ICP备2022030332号-1</p>
+</footer>
+
+</body>
+</html>
+
